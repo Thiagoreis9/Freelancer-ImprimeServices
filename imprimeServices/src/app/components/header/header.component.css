@@ -15,28 +15,29 @@
 .headerMenu {
   display: flex;
   justify-content: space-between;
-  gap: 3em;
   z-index: 2;
+  
 
 }
 .headerMenu a{
   text-decoration: none;
-  color: var(--color-red);
+  color: red;
   transition: 400ms;
   font-weight: bold;
   padding: 20px;
+  border-bottom: 3px solid white;
 
 }
 
 .headerMenu a:hover{
-  font-size: 1.02rem;
-  color: var(--color-black);
-  transition: 100ms;
+  color: black;
+  transition: 1200ms;
+  border-bottom: 3px solid black;
 }
 
-.active{
-  background-color: rgb(221, 174, 174);
-  border-radius: 1rem;
+.active a{
+  
+  color: black;
 
 }
 
