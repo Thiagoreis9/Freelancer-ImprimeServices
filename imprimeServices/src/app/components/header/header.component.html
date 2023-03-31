@@ -1,19 +1,37 @@
-<div class="headerContainer">
-  <ul>
-    <li>
-      <a href="#">INICIO</a>
-    </li>
-    <li>
-      <a href="#">PRODUTOS</a>
-    </li>
-    <li>
-      <a href="#">SERVICOS</a>
-    </li>
-    <li>
-      <a href="#">CONTATOS</a>
-    </li>
-    <li>
-      <a href="#">SOBRE NOS</a>
-    </li>
-  </ul>
+<div class="headerContainer" id="header">
+
+  <button (click)="toggleSideBar()" class="btnIconHeader">
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+    </svg>
+  </button>
+
+  <div class="logo_header">
+    <img src="../../../assets/logo.png" alt="logo">
+  </div>
+
+  <div class="headerMenu" id="headerMenu">
+
+    <button (click)="toggleSideBar()" class="btnIconHeader">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+      </svg>
+    </button>
+
+    <a href="#" class="active">INICIO</a>
+
+    <a href="#">PRODUTOS</a>
+
+    <a href="#">SERVICOS</a>
+
+    <a href="#">CONTATOS</a>
+
+    <a href="#">SOBRE NOS</a>
+
+  </div>
+
+</div>
+
+<div tabindex="0" (click)="closeSideBar()" class="content" id="content">
+  <p>TODO O CONTEUDO DA PAGINA AQUI</p>
 </div>

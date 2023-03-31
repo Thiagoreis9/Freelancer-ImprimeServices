@@ -1,5 +1,8 @@
 .footerContainer{
-  background-color: blueviolet;
+  background-color: var(--color-red);
+  color: aliceblue;
+  font-weight: bold;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  padding: 20px 20px 80px 20px;
 }

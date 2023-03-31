@@ -1,9 +1,89 @@
 .headerContainer{
-  background-color: red;
-}
-ul{
+  background-color: rgb(255, 255, 255);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 2rem;
+  box-shadow: 1px 1px 6px #1c1c1c;
 
 }
+
+.logo_header img{
+  width: 6rem;
+}
+
+.headerMenu {
+  display: flex;
+  justify-content: space-between;
+  gap: 3em;
+  z-index: 2;
+
+}
+.headerMenu a{
+  text-decoration: none;
+  color: var(--color-red);
+  transition: 400ms;
+  font-weight: bold;
+  padding: 20px;
+
+}
+
+.headerMenu a:hover{
+  font-size: 1.02rem;
+  color: var(--color-black);
+  text-decoration: underline;
+  transition: 100ms;
+}
+
+.active{
+  background-color: rgb(221, 174, 174);
+  border-radius: 1rem;
+
+}
+
+.btnIconHeader{
+  display: none;
+  background-color: transparent;
+  color: var(--color-black);
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1039px) {
+  .btnIconHeader{
+    display: block;
+  }
+  .headerMenu{
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    background-color: #f8eded;
+    height: 100%;
+    width: 35vw;
+    padding: 1em;
+    justify-content: flex-start;
+    text-align: center;
+    animation-duration: 1s;
+    margin-left: -100vw;
+
+  }
+
+}
+
+@keyframes showSideBar {
+  from {margin-left: -100vw}
+  top {margin-left: -5vw;}
+}
+@keyframes closeSideBar {
+  from {margin-left: -5vw}
+  top {margin-left: -100vw}
+}
+
+.content{
+  text-align: center;
+  padding-top: 5em;
+  height: 100vh;
+  transition: 1s;
+}
+
 
