@@ -31,7 +31,6 @@
 .headerMenu a:hover{
   font-size: 1.02rem;
   color: var(--color-black);
-  text-decoration: underline;
   transition: 100ms;
 }
 
