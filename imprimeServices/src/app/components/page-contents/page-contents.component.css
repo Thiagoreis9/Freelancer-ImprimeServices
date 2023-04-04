@@ -1,0 +1,129 @@
+.pageContentsContainer{
+  background-image: linear-gradient(to right bottom, #ff4040, #f43432, #e82724, #dc1814, #d00000);
+  width: auto;
+  height: 100vh;
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.pageContentsApresentation{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 36rem;
+  text-align: justify;
+  padding: 40px;
+  width: 100%;
+}
+
+.pageContentsApresentation h1{
+  font-size: 45px;
+  font-weight: bolder;
+  text-align: left;
+}
+.pageContentsApresentation p{
+  font-size: 22px;
+  line-height: 50px;
+  width: 750px;
+
+}
+.pageContentsApresentationLink{
+  background-color: white;
+  border-radius: .8rem;
+  width: 160px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.pageContentsApresentationLink button{
+  color: var(--color-red);
+  font-weight: bolder;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.pageContentsApresentationLink svg{
+  color: var(--color-red);
+  padding-right: 10px;
+
+}
+
+.pageContentsImages img{
+  width: 44rem;
+  border-radius: 4.5rem 1rem 4.5rem 1rem;
+}
+
+@media screen and (max-width: 1649px) {
+  .pageContentsContainer{
+    padding: 40px;
+  }
+  .pageContentsApresentation{
+    padding: 0px;
+    align-items: center;
+  }
+  .pageContentsApresentation p{
+    font-size: 18px;
+    line-height: 40px;
+    width: 450px;
+  }
+  .pageContentsApresentation h1{
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  .pageContentsImages img{
+    width: 35rem;
+
+  }
+}
+@media screen and (max-width: 1169px) {
+
+  .pageContentsContainer{
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 800px;
+  }
+  .pageContentsImages img{
+    width: 25rem;
+
+  }
+
+
+}
+@media screen and (max-width: 579px) {
+  .pageContentsApresentation p{
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 479px) {
+
+
+  .pageContentsApresentation h1{
+    font-size: 28px;
+
+  }
+  .pageContentsApresentationLink{
+    margin-top: 20px;
+  }
+
+  .pageContentsContainer{
+    padding-top: 40px;
+    height: 100%;
+  }
+
+  .pageContentsImages img{
+    width: 15rem;
+
+  }
+}
+
+
+

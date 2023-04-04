@@ -5,7 +5,7 @@
   align-items: center;
   padding: .5rem 2rem;
   box-shadow: 1px 1px 6px #1c1c1c;
-
+  z-index: 2;
 }
 
 .logo_header img{
@@ -16,8 +16,6 @@
   display: flex;
   justify-content: space-between;
   z-index: 2;
-
-
 }
 .headerMenu a{
   text-decoration: none;
@@ -26,7 +24,6 @@
   font-weight: bold;
   padding: 20px;
   border-bottom: 3px solid white;
-
 }
 
 .headerMenu a:hover{
@@ -36,9 +33,7 @@
 }
 
 .active a{
-
   color: black;
-
 }
 
 .btnIconHeader{
@@ -86,8 +81,6 @@
     padding: 0 1rem;
   }
 
-
-
 }
 
 @keyframes showSideBar {
@@ -101,9 +94,9 @@
 
 .content{
   text-align: center;
-  padding-top: 5em;
   height: 100vh;
   transition: 1s;
+  z-index: 0;
 }
 
 
