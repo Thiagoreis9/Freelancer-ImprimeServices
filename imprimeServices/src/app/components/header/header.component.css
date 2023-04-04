@@ -9,19 +9,19 @@
 }
 
 .logo_header img{
-  width: 6rem;
+  width: 4rem;
 }
 
 .headerMenu {
   display: flex;
   justify-content: space-between;
   z-index: 2;
-  
+
 
 }
 .headerMenu a{
   text-decoration: none;
-  color: red;
+  color: var(--color-red);
   transition: 400ms;
   font-weight: bold;
   padding: 20px;
@@ -30,13 +30,13 @@
 }
 
 .headerMenu a:hover{
-  color: black;
+  color: var(--color-black);
   transition: 1200ms;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid var(--color-black);
 }
 
 .active a{
-  
+
   color: black;
 
 }
@@ -47,6 +47,8 @@
   color: var(--color-black);
   border: none;
   cursor: pointer;
+  padding: 0 .1rem;
+
 }
 
 @media screen and (max-width: 1039px) {
@@ -67,15 +69,33 @@
     margin-left: -100vw;
 
   }
+  .headerMenu a{
+    border-bottom: 3px solid #f8eded;
+  }
+
+}
+@media screen and (max-width: 629px) {
+  .headerContainer{
+
+
+    padding: .5rem 2rem .5rem 0rem;
+    box-shadow: 1px 1px 6px #1c1c1c;
+
+  }
+  .btnIconHeader{
+    padding: 0 1rem;
+  }
+
+
 
 }
 
 @keyframes showSideBar {
   from {margin-left: -100vw}
-  top {margin-left: -5vw;}
+  top {margin-left: 0vw;}
 }
 @keyframes closeSideBar {
-  from {margin-left: -5vw}
+  from {margin-left: 0vw}
   top {margin-left: -100vw}
 }
 
