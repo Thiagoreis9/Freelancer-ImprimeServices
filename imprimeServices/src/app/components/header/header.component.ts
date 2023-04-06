@@ -20,11 +20,11 @@ export class HeaderComponent implements OnInit {
       this.showSidebar = !this.showSidebar;
 
       if(this.showSidebar){
-        this.headerMenu!.style.marginLeft = '-5vw';
+        this.headerMenu!.style.marginLeft = '-65vw';
         this.headerMenu!.style.animationName = 'showSideBar';
         this.content!.style.filter = 'blur(2px)';
       } else{
-        this.headerMenu!.style.marginLeft = '-100vw';
+        this.headerMenu!.style.marginLeft = '-200vw';
         this.headerMenu!.style.animationName = 'closeSideBar';
         this.content!.style.filter = '';
 
