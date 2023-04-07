@@ -15,7 +15,6 @@ footer {
   letter-spacing: 1px;
   width: 100%;
   color: var(--color-neutral-40);
-  scroll-behavior: smooth;
 }
 
 .footer-link{
