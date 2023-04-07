@@ -73,6 +73,7 @@ footer {
 
 #footer_social_media .footer-link i {
   font-size: 1.25rem;
+  margin-left: 0.1rem;
 }
 
 #footer_social_media .footer-link:hover {
