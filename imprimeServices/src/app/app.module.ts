@@ -6,6 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PageContentsComponent } from './components/page-contents/page-contents.component';
 import { ProductsComponent } from './products/products.component';
+import { BtnTopComponent } from './components/btn-top/btn-top.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { ProductsComponent } from './products/products.component';
     HeaderComponent,
     FooterComponent,
     PageContentsComponent,
-    ProductsComponent
+    ProductsComponent,
+    BtnTopComponent
 
   ],
   imports: [
