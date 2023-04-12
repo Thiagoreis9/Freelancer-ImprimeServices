@@ -1,7 +1,7 @@
 .pageContentsContainer{
   background-image: linear-gradient(to right bottom, #ff4040, #f43432, #e82724, #dc1814, #d00000);
-  width: auto;
-  height: 80vh;
+  width: 100%;
+  height: 90vh;
   padding: 60px;
   display: flex;
   justify-content: space-between;
