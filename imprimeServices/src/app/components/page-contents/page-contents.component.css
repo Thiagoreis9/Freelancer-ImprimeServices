@@ -1,7 +1,7 @@
 .pageContentsContainer{
   background-image: linear-gradient(to right bottom, #ff4040, #f43432, #e82724, #dc1814, #d00000);
-  width: auto;
-  height: 80vh;
+  width: 100%;
+  height: 90vh;
   padding: 60px;
   display: flex;
   justify-content: space-between;
@@ -37,6 +37,7 @@
   align-items: center;
 
 }
+
 .pageContentsApresentationLink button{
   background-color: white;
   color: var(--color-red);
@@ -47,12 +48,11 @@
   border-radius: .8rem;
   width: 160px;
   height: 55px;
-  rotate: 345deg;
+
 }
 
 .pageContentsApresentationLink button:hover{
-
-  rotate: 360deg;
+  rotate: -15deg;
   transition: 400ms;
 }
 
@@ -62,10 +62,11 @@
 
 }
 
-.pageContentsImages img{
-  width: 44rem;
-  border-radius: 4.5rem 1rem 4.5rem 1rem;
+.pageContentsImages{
+  width: 95rem;
+  height: 40rem;
 }
+
 
 @media screen and (max-width: 1649px) {
   .pageContentsContainer{
@@ -84,10 +85,7 @@
     font-size: 35px;
     font-weight: bolder;
   }
-  .pageContentsImages img{
-    width: 35rem;
 
-  }
 }
 @media screen and (max-width: 1169px) {
 
@@ -98,11 +96,11 @@
     justify-content: space-between;
     height: 800px;
   }
-  .pageContentsImages img{
-    width: 25rem;
 
+  .pageContentsImages{
+    width: 45rem;
+    height: 40rem;
   }
-
 
 }
 @media screen and (max-width: 579px) {
@@ -112,8 +110,6 @@
 }
 
 @media screen and (max-width: 479px) {
-
-
   .pageContentsApresentation h1{
     font-size: 28px;
 
@@ -127,10 +123,6 @@
     height: 100%;
   }
 
-  .pageContentsImages img{
-    width: 15rem;
-
-  }
 }
 
 

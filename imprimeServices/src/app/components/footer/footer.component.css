@@ -25,29 +25,22 @@ footer {
   margin-left: 15px;
 }
 
-.footer-link .span-mail{
-  margin-left: 17px;
+.footer-link{
+  display: flex;
+  flex-direction: row;
 }
 
 #footer_content {
   background-color: var(--color-neutral-10);
   display: flex;
-  justify-content: space-evenly;
-  height: 350px;
-}
-
-#footer_contacts, .footer-list {
-  width: 400px;
-  margin-top: 85px;
+  justify-content: space-around;
+  min-height: 150px;
+  padding: 6rem 3rem;
 }
 
 #footer_contacts h1 {
   margin-bottom: 23px;
   font-size: 25px;
-}
-
-#footer_contacts {
-  margin-left: 150px;
 }
 
 #footer_contacts p{
@@ -121,33 +114,7 @@ footer {
   margin-left: 3px;
 }
 
-#btnTop {
-  position: fixed;
-  bottom: 50px;
-  right: 20px;
-  width: 50px;
-  height: 50px;
-  background-color: var(--color-red);
-  border-radius: 50%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
 
-.arrow {
-  border: solid var(--color-neutral-40);
-  border-width: 0 7px 7px 0;
-  padding: 4px;
-  display: inline-block;
-  margin-top: 6px;
-}
-
-.up {
-  transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-}
 
 @media screen and (max-width: 768px) {
   #footer_content{
@@ -157,9 +124,20 @@ footer {
   }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 625px) {
   #footer_content{
-    grid-template-columns: repeat(1, 1fr);
-    padding: 3rem 2rem;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding: 6rem 20%;
   }
 }
+
+@media screen and (max-width: 377px) {
+
+  .footer-link{
+    display: flex;
+    flex-direction: row;
+  }
+}
+
