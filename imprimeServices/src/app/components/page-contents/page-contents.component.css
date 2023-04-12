@@ -37,6 +37,7 @@
   align-items: center;
 
 }
+
 .pageContentsApresentationLink button{
   background-color: white;
   color: var(--color-red);
@@ -61,10 +62,11 @@
 
 }
 
-.pageContentsImages img{
-  width: 44rem;
-  border-radius: 4.5rem 1rem 4.5rem 1rem;
+.pageContentsImages{
+  width: 95rem;
+  height: 40rem;
 }
+
 
 @media screen and (max-width: 1649px) {
   .pageContentsContainer{
@@ -83,10 +85,7 @@
     font-size: 35px;
     font-weight: bolder;
   }
-  .pageContentsImages img{
-    width: 35rem;
 
-  }
 }
 @media screen and (max-width: 1169px) {
 
@@ -97,11 +96,6 @@
     justify-content: space-between;
     height: 800px;
   }
-  .pageContentsImages img{
-    width: 25rem;
-
-  }
-
 
 }
 @media screen and (max-width: 579px) {
@@ -111,8 +105,6 @@
 }
 
 @media screen and (max-width: 479px) {
-
-
   .pageContentsApresentation h1{
     font-size: 28px;
 
@@ -126,10 +118,6 @@
     height: 100%;
   }
 
-  .pageContentsImages img{
-    width: 15rem;
-
-  }
 }
 
 

@@ -7,6 +7,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { PageContentsComponent } from './components/page-contents/page-contents.component';
 import { ProductsComponent } from './products/products.component';
 import { BtnTopComponent } from './components/btn-top/btn-top.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { BtnTopComponent } from './components/btn-top/btn-top.component';
     FooterComponent,
     PageContentsComponent,
     ProductsComponent,
-    BtnTopComponent
+    BtnTopComponent,
+    CarouselComponent
 
   ],
   imports: [
