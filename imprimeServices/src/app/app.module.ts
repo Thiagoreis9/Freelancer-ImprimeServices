@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PageContentsComponent } from './components/page-contents/page-contents.component';
-import { ProductsComponent } from './products/products.component';
+import { ProductsComponent } from './components/products/products.component';
 import { BtnTopComponent } from './components/btn-top/btn-top.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 
