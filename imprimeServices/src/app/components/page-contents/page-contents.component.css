@@ -63,6 +63,7 @@
 }
 
 .pageContentsImages{
+  width: 95rem;
   height: 40rem;
 }
 
@@ -94,6 +95,11 @@
     align-items: center;
     justify-content: space-between;
     height: 800px;
+  }
+
+  .pageContentsImages{
+    width: 45rem;
+    height: 40rem;
   }
 
 }
