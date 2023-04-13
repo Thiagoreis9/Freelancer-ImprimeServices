@@ -25,7 +25,7 @@ import { CarouselCardsComponent } from './components/carousel-cards/carousel-car
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

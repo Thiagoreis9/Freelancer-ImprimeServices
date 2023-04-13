@@ -80,7 +80,7 @@
 
 @keyframes showSideBar {
   from {margin-left: -200vw}
-  top {margin-left: 0vw;}
+  top {margin-left: 0vw}
 }
 @keyframes closeSideBar {
   from {margin-left: -65vw}
