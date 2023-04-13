@@ -1,13 +1,12 @@
-.container {
+.splide__slide {
   padding: 5rem 0;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  gap: 3.7rem;
+  gap: 1rem;
   flex-wrap: wrap;
   align-items: center;
   background-color: #eee;
-
   min-height: 100%;
 }
 
@@ -20,11 +19,12 @@
   transition: 0.2s;
   width: 25rem;
   height: 45rem;
+  text-align: center;
 }
 
 .container-item:hover {
   transform: translateY(-0.5%);
-  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.5);
 }
 
 .card-img {

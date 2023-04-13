@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import Splide from '@splidejs/splide';
+import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 
 @Component({
   selector: 'app-products',
@@ -7,9 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductsComponent implements OnInit {
 
-  constructor() { }
+  constructor() {}
+  
+  ngOnInit( ): void {
 
-  ngOnInit(): void {
+    const splide = new Splide( '.splide', {
+      type   : 'loop',
+      drag   : 'free',
+      focus  : 'center',
+      perPage: 3,
+      autoScroll: {
+        speed: 1,
+      },
+    } ).mount( { AutoScroll } );
+
   }
-
 }
