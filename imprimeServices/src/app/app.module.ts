@@ -9,6 +9,7 @@ import { ProductsComponent } from './components/products/products.component';
 import { BtnTopComponent } from './components/btn-top/btn-top.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { CarouselCardsComponent } from './components/carousel-cards/carousel-cards.component';
+import { StoresComponent } from './components/stores/stores.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { CarouselCardsComponent } from './components/carousel-cards/carousel-car
     ProductsComponent,
     BtnTopComponent,
     CarouselComponent,
-    CarouselCardsComponent
+    CarouselCardsComponent,
+    StoresComponent
 
   ],
   imports: [
