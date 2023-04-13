@@ -57,6 +57,7 @@
 .pageContentsApresentationLink svg{
   color: var(--color-red);
   padding-right: 10px;
+  width: 30px;
 
 }
 
