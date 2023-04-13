@@ -15,13 +15,16 @@ export class ProductsComponent implements OnInit {
 
     const splide = new Splide( '.splide', {
       type   : 'loop',
-      drag   : 'free',
-      focus  : 'center',
       perPage: 3,
+      focus: 'center',
+      breakpoints: {
+        1200: {perPage: 2},
+        900: {perPage: 1},
+      },
       autoScroll: {
-        speed: 1,
+        pauseOnHover: false,
+        speed: 0.5,
       },
     } ).mount( { AutoScroll } );
-
   }
 }
