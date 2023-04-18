@@ -10,7 +10,9 @@ import { BtnTopComponent } from './components/btn-top/btn-top.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { CarouselCardsComponent } from './components/carousel-cards/carousel-cards.component';
 import { StoresComponent } from './components/stores/stores.component';
-
+import { StorePistaoComponent } from './storesDetails/store-pistao/store-pistao.component';
+import { StoreTGSComponent } from './storesDetails/store-tgs/store-tgs.component';
+import { StorePlazaComponent } from './storesDetails/store-plaza/store-plaza.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,10 @@ import { StoresComponent } from './components/stores/stores.component';
     BtnTopComponent,
     CarouselComponent,
     CarouselCardsComponent,
-    StoresComponent
+    StoresComponent,
+    StorePistaoComponent,
+    StoreTGSComponent,
+    StorePlazaComponent
 
   ],
   imports: [
