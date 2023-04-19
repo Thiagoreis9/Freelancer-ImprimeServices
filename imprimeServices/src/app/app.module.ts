@@ -13,6 +13,7 @@ import { StoresComponent } from './components/stores/stores.component';
 import { StorePistaoComponent } from './storesDetails/store-pistao/store-pistao.component';
 import { StoreTGSComponent } from './storesDetails/store-tgs/store-tgs.component';
 import { StorePlazaComponent } from './storesDetails/store-plaza/store-plaza.component';
+import { HomeScreenComponent } from './screens/home-screen/home-screen.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { StorePlazaComponent } from './storesDetails/store-plaza/store-plaza.com
     StoresComponent,
     StorePistaoComponent,
     StoreTGSComponent,
-    StorePlazaComponent
+    StorePlazaComponent,
+    HomeScreenComponent
 
   ],
   imports: [

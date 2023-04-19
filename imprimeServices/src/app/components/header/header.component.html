@@ -20,23 +20,25 @@
 
     <a href="#" class="active">INICIO</a>
 
-    <a href="#">PRODUTOS</a>
+    <a routerLink="services">PRODUTOS</a>
 
-    <a href="#">SERVICOS</a>
+    <a routerLink="stores">LOJAS</a>
+
+    <a href="#">GALERIA</a>
 
     <a href="#">CONTATOS</a>
-
-    <a href="#">SOBRE NOS</a>
 
   </div>
 
 </div>
 
- <div tabindex="0" (click)="closeSideBar()" class="content" id="content">
-  <app-page-contents></app-page-contents>
-  <app-products></app-products>
-  <app-stores></app-stores>
-  <app-footer></app-footer>
-
-</div>
+  <div tabindex="0" (click)="closeSideBar()" class="content" id="content">
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+  </div>
 <app-btn-top></app-btn-top>
+
+
+<!--
+
+-->
