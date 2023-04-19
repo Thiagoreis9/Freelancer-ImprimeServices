@@ -18,15 +18,15 @@
       </svg>
     </button>
 
-    <a href="#" class="active">INICIO</a>
+    <a href="#" (click)="toggleSideBar()" class="active">INICIO</a>
 
-    <a routerLink="services">PRODUTOS</a>
+    <a routerLink="services" (click)="toggleSideBar()" >PRODUTOS</a>
 
-    <a routerLink="stores">LOJAS</a>
+    <a routerLink="stores" (click)="toggleSideBar()">LOJAS</a>
 
-    <a href="#">GALERIA</a>
+    <a href="#" (click)="toggleSideBar()">GALERIA</a>
 
-    <a href="#">CONTATOS</a>
+    <a href="#" (click)="toggleSideBar()">CONTATOS</a>
 
   </div>
 
