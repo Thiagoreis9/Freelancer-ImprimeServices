@@ -6,6 +6,7 @@ import { StorePistaoComponent } from './storesDetails/store-pistao/store-pistao.
 import { HomeScreenComponent } from './screens/home-screen/home-screen.component';
 import { StoresComponent } from './components/stores/stores.component';
 import { ProductsComponent } from './components/products/products.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
 
 const routes: Routes = [
     { path: '', component: HomeScreenComponent },
@@ -13,7 +14,8 @@ const routes: Routes = [
     { path: 'stores', component: StoresComponent },
     { path: 'storeTGS', component: StoreTGSComponent },
     { path: 'storePlaza', component: StorePlazaComponent },
-    { path: 'storePistao', component: StorePistaoComponent }
+    { path: 'storePistao', component: StorePistaoComponent },
+    { path: 'gallery', component: GalleryComponent }
 
 ];
 

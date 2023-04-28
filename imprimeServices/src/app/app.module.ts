@@ -14,6 +14,7 @@ import { StorePistaoComponent } from './storesDetails/store-pistao/store-pistao.
 import { StoreTGSComponent } from './storesDetails/store-tgs/store-tgs.component';
 import { StorePlazaComponent } from './storesDetails/store-plaza/store-plaza.component';
 import { HomeScreenComponent } from './screens/home-screen/home-screen.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { HomeScreenComponent } from './screens/home-screen/home-screen.component
     StorePistaoComponent,
     StoreTGSComponent,
     StorePlazaComponent,
-    HomeScreenComponent
+    HomeScreenComponent,
+    GalleryComponent
 
   ],
   imports: [
