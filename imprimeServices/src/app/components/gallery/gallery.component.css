@@ -1,20 +1,19 @@
 .galleryContainer{
   display: flex;
-  position: relative;
   justify-content: center;
   flex-direction: column;
   justify-content: space-between;
   background-color: #FFDEE9;
   background-image: linear-gradient(0deg, #B5FFFC 0%, #FFDEE9 100%);
   z-index: 1;
-  height: 100vh;
+  height: 800px;
 }
 
 .galleryContainer h1 {
   text-align: center;
   font-weight: 700;
   font-size: 50px;
-  margin-top: 3rem;
+  margin-top: .5rem;
   color: var(--color-red);
   padding: 5px;
 }
@@ -24,7 +23,7 @@
   font-size: 20px;
   top: 110px;
   color: #000;
-  padding: 5px;
+
 }
 
 .galleryContents{
@@ -97,10 +96,6 @@
     display: none;
   }
 
-  .galleryContainer{
-    height: 110vh;
-  }
-
   .content1{
     top: 600px;
     gap: 0rem;
@@ -120,7 +115,7 @@
 @media screen and (max-width: 759px) {
 
   .galleryContainer{
-    height: 170vh;
+    height: 1400px;
   }
 
   .over {
@@ -149,8 +144,19 @@
 @media screen and (max-width: 559px) {
 
   .galleryContainer{
-    margin-top: -55px;
-    height: 225vh;
+    height: 1700px;
+  }
+  .content1{
+    top: 1025px;
+    margin-top: 50px;
+  }
+  .content2{
+    top: 225px;
+    margin-top: 50px;
+  }
+  .content3{
+    top: 625px;
+    margin-top: 50px;
   }
 
 
