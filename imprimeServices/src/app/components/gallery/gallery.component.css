@@ -148,15 +148,15 @@
   }
   .content1{
     top: 1025px;
-    margin-top: 50px;
+    margin: 50px 2rem 2rem 2rem;
   }
   .content2{
     top: 225px;
-    margin-top: 50px;
+    margin: 50px 2rem 2rem 2rem;
   }
   .content3{
     top: 625px;
-    margin-top: 50px;
+    margin: 50px 2rem 2rem 2rem;
   }
 
 

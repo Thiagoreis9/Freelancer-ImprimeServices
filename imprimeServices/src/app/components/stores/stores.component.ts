@@ -10,6 +10,10 @@ export class StoresComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
+  scrollTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 }
