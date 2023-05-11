@@ -7,7 +7,8 @@
   </button>
 
   <div class="logo_header">
-    <img src="../../../assets/logo.png" alt="logo">
+    <a routerLink=""><img src="../../../assets/logo.png" alt="logo"></a>
+
   </div>
 
   <div class="headerMenu" id="headerMenu">
@@ -18,9 +19,9 @@
       </svg>
     </button>
 
-    <a href="#" (click)="closeSideBar()" class="active">INICIO</a>
+    <a routerLink="" (click)="closeSideBar()" class="active">INICIO</a>
 
-    <a routerLink="services" (click)="closeSideBar()" >PRODUTOS</a>
+    <a routerLink="services" (click)="closeSideBar()">PRODUTOS</a>
 
     <a routerLink="stores" (click)="closeSideBar()">LOJAS</a>
 
@@ -35,8 +36,3 @@
     <app-footer></app-footer>
   </div>
 <app-btn-top></app-btn-top>
-
-
-<!--
-
--->
