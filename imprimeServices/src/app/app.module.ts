@@ -15,6 +15,11 @@ import { StoreTGSComponent } from './storesDetails/store-tgs/store-tgs.component
 import { StorePlazaComponent } from './storesDetails/store-plaza/store-plaza.component';
 import { HomeScreenComponent } from './screens/home-screen/home-screen.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
+import { PapelariaPersonalizadaComponent } from './screens/productsDetail/papelaria-personalizada/papelaria-personalizada.component';
+import { EncadernacaoComponent } from './screens/productsDetail/encadernacao/encadernacao.component';
+import { MaterialEscritorioComponent } from './screens/productsDetail/material-escritorio/material-escritorio.component';
+import { CriacaoArteDesignComponent } from './screens/productsDetail/criacao-arte-design/criacao-arte-design.component';
+import { ImpressaoDigitalComponent } from './screens/productsDetail/impressao-digital/impressao-digital.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +36,12 @@ import { GalleryComponent } from './components/gallery/gallery.component';
     StoreTGSComponent,
     StorePlazaComponent,
     HomeScreenComponent,
-    GalleryComponent
+    GalleryComponent,
+    PapelariaPersonalizadaComponent,
+    EncadernacaoComponent,
+    MaterialEscritorioComponent,
+    CriacaoArteDesignComponent,
+    ImpressaoDigitalComponent
 
   ],
   imports: [

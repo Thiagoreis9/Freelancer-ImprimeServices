@@ -52,6 +52,7 @@
 
 .pageContentsApresentationLink a:hover{
   rotate: -15deg;
+  transform: scale(1.1);
   transition: 400ms;
 }
 
