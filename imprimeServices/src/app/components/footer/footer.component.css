@@ -37,7 +37,7 @@ footer {
   padding: 6rem 3rem;
 }
 
-#footer_contacts h1 {
+#footer_contacts h1{
   margin-bottom: 15px;
   font-size: 25px;
   text-align: left;
@@ -92,7 +92,7 @@ footer {
   text-align: left;
 }
 
-.footer-list h3 {
+.footer-list h2 {
   margin-bottom: 15px;
   text-align: start;
 }

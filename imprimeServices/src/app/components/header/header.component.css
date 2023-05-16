@@ -80,11 +80,11 @@
 
 @keyframes showSideBar {
   from {margin-left: -200vw}
-  top {margin-left: 0vw}
+  100% {margin-left: -65vw}
 }
 @keyframes closeSideBar {
   from {margin-left: -65vw}
-  top {margin-left: -200vw}
+  100% {margin-left: -200vw}
 }
 
 .content{

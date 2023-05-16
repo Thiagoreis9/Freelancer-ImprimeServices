@@ -12,9 +12,9 @@ const routes: Routes = [
     { path: '', component: HomeScreenComponent },
     { path: 'services', component: ProductsComponent },
     { path: 'stores', component: StoresComponent },
-    { path: 'storeTGS', component: StoreTGSComponent },
-    { path: 'storePlaza', component: StorePlazaComponent },
-    { path: 'storePistao', component: StorePistaoComponent },
+    { path: 'store-TGS', component: StoreTGSComponent },
+    { path: 'store-Plaza', component: StorePlazaComponent },
+    { path: 'store-Pistao', component: StorePistaoComponent },
     { path: 'gallery', component: GalleryComponent }
 
 ];
