@@ -10,7 +10,7 @@ import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 export class ProductsComponent implements OnInit {
 
   constructor() {}
-  
+
   ngOnInit( ): void {
 
     const splide = new Splide( '.splide', {
@@ -26,5 +26,9 @@ export class ProductsComponent implements OnInit {
         speed: 0.5,
       },
     } ).mount( { AutoScroll } );
+  }
+
+  scrollTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 }

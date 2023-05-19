@@ -19,13 +19,13 @@
       </svg>
     </button>
 
-    <a routerLink="" (click)="closeSideBar()" class="active">INICIO</a>
+    <a routerLink="" (click)="closeSideBar()" (click)="scrollTop()" class="active">INICIO</a>
 
-    <a routerLink="services" (click)="closeSideBar()">PRODUTOS</a>
+    <a routerLink="services" (click)="closeSideBar()" (click)="scrollTop()">PRODUTOS</a>
 
-    <a routerLink="stores" (click)="closeSideBar()">LOJAS</a>
+    <a routerLink="stores" (click)="closeSideBar()" (click)="scrollTop()">LOJAS</a>
 
-    <a routerLink="gallery" (click)="closeSideBar()">GALERIA</a>
+    <a routerLink="gallery" (click)="closeSideBar()" (click)="scrollTop()">GALERIA</a>
 
   </div>
 
