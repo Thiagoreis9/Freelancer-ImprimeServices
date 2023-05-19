@@ -12,7 +12,6 @@
   height: 92vh;
   display: flex;
   backdrop-filter: blur(22px);
-
 }
 
 .storeName{
@@ -20,13 +19,13 @@
   color: #fff;
   text-shadow: 1px 1px 3px black;
   width: 100%;
-
 }
+
 .storeName h1{
   font-size: 7rem;
   font-weight: bolder;
-
 }
+
 .storeInfos{
   width: 100%;
   display: flex;
@@ -36,6 +35,7 @@
   align-items: center;
   margin: 50px 0px;
 }
+
 .storeInfosContainer{
   display: flex;
   flex-direction: column;
@@ -43,6 +43,7 @@
   gap: 1rem;
   text-align: left;
 }
+
 .storeInfosContainer p{
   text-align: left;
 }
@@ -52,6 +53,7 @@
   font-size: 1.5rem;
 
 }
+
 .storeInfos_Address{
   line-height: 25px;
   margin-bottom: 20px;
@@ -61,12 +63,14 @@
   margin: 15px 0;
   font-size: 1.5rem;
 }
+
 .storeInfos_Contact{
   display: flex;
   flex-direction: column;
   line-height: 25px;
   margin-bottom: 20px;
 }
+
 .storeInfos_Contact a{
   text-decoration: none;
   color: #fff;
@@ -76,10 +80,12 @@
   line-height: 20px;
   text-align: left;
 }
+
 .storeInfos_Schedules h2{
   margin: 15px 0;
   font-size: 1.5rem;
 }
+
 .storeInfos_Schedules p{
   margin: 10px 0;
   font-size: 1rem;
@@ -127,7 +133,6 @@
   background-color: #25d366;
 }
 
-
 @media screen and (max-width: 1570px) {
   .storeContainer{
     flex-direction: column;
@@ -139,32 +144,27 @@
     text-align: center;
 
   }
-
-  .storeImage{
-    height: auto;
-  }
 }
-
 
 @media screen and (max-width: 989px) {
   .storeInfos{
     flex-direction: column;
   }
 }
+
 @media screen and (max-width: 715px) {
-  .storeImage{
-    display: none;
-  }
   .storeInfos_Localization iframe{
     height: 300px;
     width: 400px;
   }
 }
+
 @media screen and (max-width: 715px) {
   .storeName h1{
     font-size: 3rem;
   }
 }
+
 @media screen and (max-width: 439px) {
   .storeInfos_Localization iframe{
     height: 200px;
