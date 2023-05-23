@@ -23,18 +23,17 @@
   font-weight: bolder;
   text-align: left;
 }
+
 .pageContentsApresentation p{
   font-size: 22px;
   line-height: 50px;
   width: 750px;
-
 }
-.pageContentsApresentationLink a{
 
+.pageContentsApresentationLink a{
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .pageContentsApresentationLink a{
@@ -47,7 +46,6 @@
   border-radius: .8rem;
   width: 160px;
   height: 55px;
-
 }
 
 .pageContentsApresentationLink a:hover{
@@ -60,14 +58,12 @@
   color: var(--color-red);
   padding-right: 10px;
   width: 30px;
-
 }
 
 .pageContentsImages{
   width: 100%;
   height: 100%;
 }
-
 
 @media screen and (max-width: 1649px) {
   .pageContentsContainer{
@@ -86,24 +82,21 @@
     font-size: 35px;
     font-weight: bolder;
   }
-
 }
+
 @media screen and (max-width: 1169px) {
-
   .pageContentsContainer{
-
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     min-height: 800px;
   }
-
   .pageContentsImages{
     width: 100%;
     height: 100%;
   }
-
 }
+
 @media screen and (max-width: 579px) {
   .pageContentsApresentation p{
     width: auto;
@@ -113,17 +106,14 @@
 @media screen and (max-width: 479px) {
   .pageContentsApresentation h1{
     font-size: 28px;
-
   }
   .pageContentsApresentationLink{
     margin-top: 20px;
   }
-
   .pageContentsContainer{
     padding-top: 40px;
     height: 100%;
   }
-
 }
 
 

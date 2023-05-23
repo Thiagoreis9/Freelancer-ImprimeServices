@@ -8,7 +8,6 @@ import { PageContentsComponent } from './components/page-contents/page-contents.
 import { ProductsComponent } from './components/products/products.component';
 import { BtnTopComponent } from './components/btn-top/btn-top.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
-import { CarouselCardsComponent } from './components/carousel-cards/carousel-cards.component';
 import { StoresComponent } from './components/stores/stores.component';
 import { StorePistaoComponent } from './storesDetails/store-pistao/store-pistao.component';
 import { StoreTGSComponent } from './storesDetails/store-tgs/store-tgs.component';
@@ -30,7 +29,6 @@ import { ImpressaoDigitalComponent } from './screens/productsDetail/impressao-di
     ProductsComponent,
     BtnTopComponent,
     CarouselComponent,
-    CarouselCardsComponent,
     StoresComponent,
     StorePistaoComponent,
     StoreTGSComponent,

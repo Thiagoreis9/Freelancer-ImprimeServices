@@ -69,8 +69,9 @@ h1 {
 }
 
 .card__background{
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   border: none;
   border-radius: var(--spacing-l);
   bottom: 0;
@@ -88,7 +89,8 @@ h1 {
 }
 
 .card:hover .card__background{
-  transform: scale(1.05) translateZ(0);
+  transform: scale(1.00) translateZ(0);
+
 }
 
 .card-grid:hover > .card:not(:hover) .card__background{
@@ -99,7 +101,9 @@ h1 {
   left: 0;
   padding: var(--spacing-l);
   position: absolute;
-  top: 0;
+  bottom: 18px;
+  width: 100%;
+  background-color: rgba(10, 10, 10, 0.8);
 }
 
 .card__category{
