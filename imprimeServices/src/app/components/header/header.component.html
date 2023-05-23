@@ -8,31 +8,28 @@
 
   <div class="logo_header">
     <a href=""><img src="../../../assets/logo.png" alt="logomarca da imprime Services"></a>
-
   </div>
 
   <div class="headerMenu" id="headerMenu">
-
     <button (click)="toggleSideBar()" class="btnIconHeader">
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
         <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
       </svg>
     </button>
 
-    <a href="" (click)="closeSideBar()" (click)="scrollTop()" class="active">INICIO</a>
+    <a routerLink="" href="/" (click)="closeSideBar()" (click)="scrollTop()" class="active">INICIO</a>
 
-    <a href="services" (click)="closeSideBar()" (click)="scrollTop()">PRODUTOS</a>
+    <a routerLink="services" href="/services" (click)="closeSideBar()" (click)="scrollTop()">PRODUTOS</a>
 
-    <a href="stores" (click)="closeSideBar()" (click)="scrollTop()">LOJAS</a>
+    <a routerLink="stores" href="/stores" (click)="closeSideBar()" (click)="scrollTop()">LOJAS</a>
 
-    <a href="gallery" (click)="closeSideBar()" (click)="scrollTop()">GALERIA</a>
-
+    <a routerLink="gallery" href="/gallery" (click)="closeSideBar()" (click)="scrollTop()">GALERIA</a>
   </div>
-
 </div>
 
-  <div tabindex="0" (click)="closeSideBar()" class="content" id="content">
-    <router-outlet></router-outlet>
-    <app-footer></app-footer>
-  </div>
+<div tabindex="0" (click)="closeSideBar()" class="content" id="content">
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>
+</div>
+
 <app-btn-top></app-btn-top>
