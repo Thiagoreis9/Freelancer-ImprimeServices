@@ -19,6 +19,7 @@ import { EncadernacaoComponent } from './screens/productsDetail/encadernacao/enc
 import { MaterialEscritorioComponent } from './screens/productsDetail/material-escritorio/material-escritorio.component';
 import { CriacaoArteDesignComponent } from './screens/productsDetail/criacao-arte-design/criacao-arte-design.component';
 import { ImpressaoDigitalComponent } from './screens/productsDetail/impressao-digital/impressao-digital.component';
+import { BtnParceriaComponent } from './components/btn-parceria/btn-parceria.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { ImpressaoDigitalComponent } from './screens/productsDetail/impressao-di
     EncadernacaoComponent,
     MaterialEscritorioComponent,
     CriacaoArteDesignComponent,
-    ImpressaoDigitalComponent
+    ImpressaoDigitalComponent,
+    BtnParceriaComponent
 
   ],
   imports: [

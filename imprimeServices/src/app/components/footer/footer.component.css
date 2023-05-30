@@ -97,6 +97,11 @@ footer {
   text-align: start;
 }
 
+a{
+  text-decoration: none;
+  color: var(--color-neutral-30);
+}
+
 .footer-list .footer-link {
   color: var(--color-neutral-30);
 }
