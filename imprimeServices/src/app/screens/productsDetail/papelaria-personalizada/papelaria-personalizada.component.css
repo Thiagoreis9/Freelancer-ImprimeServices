@@ -1,0 +1,108 @@
+.Container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+
+.Carousel{
+  width: 30vw;
+}
+
+.Informations{
+  width: 45vw;
+}
+
+.title{
+  margin-bottom: 20px;
+}
+
+
+#addToCartButton {
+  background-color: #00AFEF;
+  color: #3E4091;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#addToCartButton:hover {
+  background-color: #3E4091;
+  color: #fff;
+  transform: scale(1.1);
+  rotate: -5deg;
+  transition: .5s;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  margin: 0rem 0rem 1rem 0rem;
+  color: #00AFEF;
+
+}
+
+p{
+  font-size: 1.2rem;
+  font-weight: bolder;
+  line-height: 1.7;
+  color: #3E4091;
+  margin-bottom: 1rem;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.carouselContainer img{
+  border-radius: 4.5rem 1rem 4.5rem 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1169px) {
+
+  .Container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+  }
+  .Carousel{
+    width: 440px;
+  }
+  .Informations{
+    width: 85vw;
+  }
+
+}
+
+@media screen and (max-width: 689px) {
+
+
+  .carousel-item-start{
+    display: flex;
+    justify-content: center;
+  }
+
+}
+@media screen and (max-width: 459px) {
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p{
+    font-size: 1rem;
+  }
+
+  .Carousel{
+    width: 310px;
+  }
+}
