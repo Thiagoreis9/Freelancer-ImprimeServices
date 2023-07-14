@@ -13,6 +13,12 @@ import { EncadernacaoComponent } from './screens/productsDetail/encadernacao/enc
 import { ImpressaoDigitalComponent } from './screens/productsDetail//impressao-digital/impressao-digital.component';
 import { MaterialEscritorioComponent } from './screens/productsDetail/material-escritorio/material-escritorio.component';
 import { PapelariaPersonalizadaComponent } from './screens/productsDetail/papelaria-personalizada/papelaria-personalizada.component';
+import { PanfletosComponent } from './screens/productsDetail/panfletos/panfletos.component';
+import { PlotagemComponent } from './screens/productsDetail/plotagem/plotagem.component';
+import { CrachaComponent } from './screens/productsDetail/cracha/cracha.component';
+import { CartaoVisitaComponent } from './screens/productsDetail/cartao-visita/cartao-visita.component';
+import { CarimboComponent } from './screens/productsDetail/carimbo/carimbo.component';
+import { AdesivoMetroComponent } from './screens/productsDetail/adesivo-metro/adesivo-metro.component';
 
 const routes: Routes = [
     { path: '', component: HomeScreenComponent },
@@ -27,7 +33,13 @@ const routes: Routes = [
     { path: 'impressao-digital', component: ImpressaoDigitalComponent },
     { path: 'material-escritorio', component: MaterialEscritorioComponent },
     { path: 'produtos-personalizados', component: PapelariaPersonalizadaComponent },
-    { path: 'banner', component: BannerComponent }
+    { path: 'banner', component: BannerComponent },
+    { path: 'panfletos', component: PanfletosComponent},
+    { path: 'plotagem', component: PlotagemComponent},
+    { path: 'cracha', component: CrachaComponent},
+    { path: 'cartao-visita', component: CartaoVisitaComponent},
+    { path: 'carimbo', component: CarimboComponent},
+    { path: 'adesivo-metro', component: AdesivoMetroComponent}
 ];
 
 @NgModule({

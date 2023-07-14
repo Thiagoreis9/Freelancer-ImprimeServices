@@ -92,9 +92,19 @@ footer {
   text-align: left;
 }
 
+.footer-list.contacts {
+  gap: 2rem;
+}
+
 .footer-list h2 {
   margin-bottom: 15px;
   text-align: start;
+}
+
+.footer-list-itens {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
 }
 
 a{
